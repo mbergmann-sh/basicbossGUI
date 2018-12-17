@@ -2,7 +2,7 @@
 BasicBoss GUI is a Qt5 interface to the well-known CBM-Basic 2.0 Compiler "Basic Boss" for the Commodore C64. It runs on Windows, but should be easily portable to Linux with a working WINE configuration.
 
 # Warning
-This code still contains some bugs!
+This code still contains some bugs! The app uses german language - there are no translations available yet.
 
 # LICENSE
 Copyright (C) 2018/2019 by Michael Bergmann. Placed in the public domain with some restrictions!
