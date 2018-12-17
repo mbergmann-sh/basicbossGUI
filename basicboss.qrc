@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>img/c64_logo.png</file>
+        <file>img/Commodore_64_logo.png</file>
+        <file>img/compiler.png</file>
+        <file>img/exit.png</file>
+        <file>img/handbuch.png</file>
+        <file>img/info.png</file>
+        <file>img/Open.png</file>
+        <file>img/prefs.png</file>
+        <file>img/qt5-logo.png</file>
+        <file>img/VICE.png</file>
+    </qresource>
+</RCC>

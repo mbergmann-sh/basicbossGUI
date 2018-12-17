@@ -1,0 +1,32 @@
+Hier ein Paar Tipp's um das arbeiten mit dem BasicBoss-CrossCompiler zu vereinfachen
+------------------------------------------------------------------------------------
+
+1.
+--
+ TOK64 ( www.geocities.com/SiliconValley/Park/5715/tok64/ ) statt PETCAT verwenden, dann
+ können folgende Zeichen genutzt werden die im Befehlssatz vom Basic-Boss vorkommen:
+ 
+ Pfundzeichen = '\'
+ Pfeil links  = '_'
+ (wie in '\protocol' oder '_sei' )
+
+
+2.
+--
+ Unter Windows eine Batchdatei erstellen, um das compilieren zu vereinfachen:
+ (test.txt ist der Basic Quellcode)	
+ 
+ Batchdatei:
+     Tok64.exe /stomp test.txt
+     basicboss.exe test.prg +out.prg
+
+     pause
+
+
+3.
+--
+ Die erste Zeile im Quelltext muss so lauten, damit der Compiler die Fehlermeldungen ausgeben kann:
+ (leitet die Ausgaben auf den Drucker um wo sie abgefangen werden können)
+	
+ 0 \protocol
+
