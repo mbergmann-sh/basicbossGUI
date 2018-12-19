@@ -25,6 +25,9 @@ This program is provided AS IS with NO WARRANTY OF ANY KIND, INCLUDING THE WARRA
 - start VICE CBM64 emulator and run bbcompiled PRG there (currently Linux-only!)
 - show compiler output
 
+# Bugs
+- some unchecked looping when starting a second compler run
+
 # Compiling the app...
 ...should work fine under Linux, Windows, and probably under BSD, too (didn't test that!).
 You'll need a computer with either MSVC, GCC or MinGW C/C++ compiler setup with Qt5 installed and working!

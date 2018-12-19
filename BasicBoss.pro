@@ -39,3 +39,6 @@ FORMS += \
 
 RESOURCES += \
     basicboss.qrc
+
+DISTFILES += \
+    README.md
