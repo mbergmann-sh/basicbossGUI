@@ -23,6 +23,7 @@ int main(int argc, char *argv[])
     myappTranslator.load("myapp_" + QLocale::system().name());
     app.installTranslator(&myappTranslator);
 
+    // fire up GUI
     MainWindow w;
     w.show();
 
