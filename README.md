@@ -22,7 +22,7 @@ This program is provided AS IS with NO WARRANTY OF ANY KIND, INCLUDING THE WARRA
 # FEATURES
 - load and compile CBM-Basic v2.0 .prg files
 - configurable compiler and emulation paths
-- start VICE CBM64 emulator
+- start VICE CBM64 emulator and run bbcompiled PRG there (currently Linux-only!)
 - show compiler output
 
 # Compiling the app...
