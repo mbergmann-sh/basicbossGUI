@@ -352,6 +352,9 @@ void MainWindow::on_actionStart_im_Emulator_triggered()
      * @x64.exe -default -parallel8 1 -autostartprgmode 2 -8 "%APPDATA%\vice\3.0\autostart-C64.d64" -autostartprgdiskimage "%APPDATA%\vice\3.0\autostart-C64.d64" -autostart %1
      */
 
+    // Remark: starts x64 and runs bbcompiled prg under Linux - but only starts x64 on Windows..
+    // Needs to be fixed!
+
     QString command = s_emulator;
     QStringList arguments;
     arguments << "-default" << s_targetfile;
