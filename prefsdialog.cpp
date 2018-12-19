@@ -16,6 +16,9 @@ prefsDialog::~prefsDialog()
     delete ui;
 }
 
+//
+// Save Prefs to disk file (basicboss.ini)
+//
 QString prefsDialog::on_buttonBox_clicked(QAbstractButton *button)
 {
     if(button == ui->buttonBox->button(QDialogButtonBox::Save) )
@@ -75,6 +78,7 @@ QString prefsDialog::on_buttonBox_clicked(QAbstractButton *button)
 
 void prefsDialog::on_btnFileOpenCompiler_clicked()
 {
+    // ToDO: FIX for executable without file extension!
     QString fileName = QFileDialog::getOpenFileName(this,
             tr("Pfad zum BasicBoss Compiler"), "bbcompiler.exe",
             tr("Ausführbare Datei (*.exe);;All Files (*)"));
